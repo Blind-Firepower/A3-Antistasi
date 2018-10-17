@@ -2,7 +2,7 @@
 #include "dialogs.hpp"
 
 author="Barbolani, port by Evoke, edits by Blind Firepower";
-OnLoadName = "Antistasi Redux v1.3.5.1.1";
+OnLoadName = "Antistasi Redux v1.3.5.1.1"; //keep synched with initvar line 8
 OnLoadMission = "Now is our time...";
 loadScreen = "pic.jpg";
 
