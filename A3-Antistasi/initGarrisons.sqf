@@ -24,9 +24,9 @@ if (gameMode == 1) then
 	        }
         else
             {
-            if (worldName == "chernarus_summer") then
+            if (worldName == "chernarusredux") then
                 {
-                _mrkCSAT = ["puesto_21"];
+  		_mrkCSAT = ["airport_2","puerto_2","puesto_1","control_37","control_31","factory","puesto_18"]
                 };
             };
 	    };
