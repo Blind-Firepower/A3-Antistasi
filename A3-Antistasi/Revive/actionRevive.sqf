@@ -61,7 +61,7 @@ if (not("FirstAidKit" in (items _curandero))) then
 	};
 _timer = if ([_curado] call A3A_fnc_fatalWound) then
 			{
-			time + 35 + (random 20)
+			time + 30 + (random 20)  // lower fatal revive time by 5 secs
 			}
 		else
 			{
