@@ -15,11 +15,11 @@ if (isMultiplayer) exitWith
 	_dineroJ = _jugador getVariable ["dinero",0];
 	if (_puntos > 0) then
 		{
-		_dineroJ = _dineroJ + (_puntos * 10);
+		_dineroJ = _dineroJ + (_puntos * 20); // increase player income per point
 		_jugador setVariable ["dinero",_dineroJ,true];
 		if (_puntos > 1) then
 			{
-			_texto = format ["<br/><br/><br/><br/><br/><br/>Money +%1 €",_puntos*10];
+			_texto = format ["<br/><br/><br/><br/><br/><br/>Money +%1 €",_puntos*20]; // display above increase
 			[petros,"income",_texto] remoteExec ["A3A_fnc_commsMP",_jugador];
 			//[] remoteExec ["A3A_fnc_statistics",_jugador];
 			};
