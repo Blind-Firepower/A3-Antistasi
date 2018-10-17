@@ -1,12 +1,12 @@
 #include "defines.hpp"
 #include "dialogs.hpp"
 
-author="Barbolani";
-OnLoadName = "Antistasi Altis";
-OnLoadMission = "Be a Resistance leader, be a hero";
-loadScreen = "pic.JPG";
+author="Barbolani, port by Evoke, edits by Blind Firepower";
+OnLoadName = "Antistasi Redux v1.3.4.5";
+OnLoadMission = "Now is our time...";
+loadScreen = "pic.jpg";
 
-overviewText = "Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.";
+overviewText = "Lead the Resistance. Fight against an enemy superior in technology, strength, numbers, and assets. Use guerrilla tactics in a totally dynamic world.";
 overviewPicture = "pic.jpg";
 
 allowFunctionsLog = 1;
@@ -359,8 +359,8 @@ class CfgDebriefing
 	class End1
 	{
 		title = "V I C T O R Y";
-		subtitle = "Altis is Ours!";
-		description = "The population of Altis loves you!<br/>The brave soldiers prooved their valour, and Barbolani, Altis new Prime Minister, could at last to have a nice holidays. A deserved rest in a Greek island, drinking with Petros, his war master.";
+		subtitle = "Chernarus is Ours!";
+		description = "The population of Chernarus loves you!<br/>The brave soldiers have proven their valour, and Barbolani, Chernarus' new Prime Minister, can at last have a nice holiday. Perhaps a well-deserved rest on a Greek island, drinking with Petros, his war master.";
 		picture = "n_inf";
 		pictureColor[] = {0.0,0.5,0.0,1};
 	};
@@ -368,15 +368,15 @@ class CfgDebriefing
     {
         title = "Petros is Dead";
         subtitle = "Petros is Dead";
-        description = "Congratulations!: Petros is Dead. Now with rebels without a leader, you may think about joining them, and free Altis";
+        description = "Congratulations!: Petros is Dead. Now with rebels without a leader, you may think about joining them, and free Chernarus";
         picture = "b_unknown";
         pictureColor[] = {0.5,0.0,0.0,1};
     };
     class destroyedCities
     {
-        title = "Altis is Destroyed";
-        subtitle = "Altis got Destroyed by OPFOR";
-        description = "One third of the population in Altis has been murdered by the OPFOR.<br/>Altis no longer exists, nobody wants to live here.";
+        title = "Chernarus is Destroyed";
+        subtitle = "Chernarus has been decimated by OPFOR";
+        description = "One third of the population in Chernarus has been murdered by the OPFOR.<br/>Altis no longer exists, nobody wants to live here.";
         picture = "b_unknown";
         pictureColor[] = {0.5,0.0,0.0,1};
     };
