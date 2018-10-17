@@ -92,7 +92,7 @@ _introShot =
     ]
     ] spawn BIS_fnc_establishingShot;
 
-_titulo = if (worldName == "Tanoa") then {["Warlords of the Pacific","by Barbolani",antistasiVersion] spawn BIS_fnc_infoText} else {if (hayIFA) then {["Armia Krajowa","by Barbolani",antistasiVersion] spawn BIS_fnc_infoText} else {["Antistasi","by Barbolani",antistasiVersion] spawn BIS_fnc_infoText}};
+_titulo = if (worldName == "chernarusredux") then {["Antistasi Redux","by Barbolani port by Evoke",antistasiVersion] spawn BIS_fnc_infoText} else {if (hayIFA) then {["Armia Krajowa","by Barbolani",antistasiVersion] spawn BIS_fnc_infoText} else {["Antistasi","by Barbolani",antistasiVersion] spawn BIS_fnc_infoText}};
 disableUserInput false;
 player addWeaponGlobal "itemmap";
 if !(hayIFA) then {player addWeaponGlobal "itemgps"};
