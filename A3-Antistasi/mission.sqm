@@ -522,7 +522,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="Antistasi Redux v.1.3.4";
+		briefingName="Antistasi Redux v.1.3.5.1.1";
 		overviewText="Build a Rebel Army from scratch and defeat US and Russian forces in a persistent mission.";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
