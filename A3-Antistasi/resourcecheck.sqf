@@ -45,8 +45,8 @@ while {true} do
 		}
 	else
 		{
-		_recAddCiudadSDK = ((_numciv * _multiplicandorec*(_prestigeSDK / 100))/3);
-		_hrAddCiudad = (_numciv * (_prestigeSDK / 10000));///20000 originalmente
+		_recAddCiudadSDK = ((_numciv * _multiplicandorec*(_prestigeSDK / 100))/4);// set denominator to 4 from 3 (=lower)
+		_hrAddCiudad = (_numciv * (_prestigeSDK / 20000));// reset to original 20000 (=lower)
 		switch (_power) do
 			{
 			case buenos: {[-1,_suppBoost,_ciudad] spawn A3A_fnc_citySupportChange};
